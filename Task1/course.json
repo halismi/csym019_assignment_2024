@@ -1,0 +1,220 @@
+{
+  "courses": [
+    {
+    "id":1,
+    "course_name":"Accounting and Finance BSc (Hons)",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "overview":"Accounting is more than just a computational skill and  the University of Northampton’s Accounting and Finance BSc degree will develop your ability to analyse and evaluate real-life situations and effectively communicate your views and opinions.",
+    "highlights":"The BSc Accounting and Finance degree at the University of Northampton provides a specialised pathway, a proven student support system and has progression courses available. It also offers significant exemptions from the main professional body exams.",
+    "course_details":"The Accounting and Finance BSc will begin by considering the practical techniques involved in accounting and finance and then continue to develop skills to critically analyse the theory behind these techniques.)", 
+    "entry_requirements":"A typical offer for Accounating and Finance would be:BBC at A Level or DDM at BTEC/Cambridge Technical or M at T Level.",       
+    "fees_and_funding": {
+        "GBP": 9250,
+        "EUR": 10500,
+        "USD": 12000
+      },
+    "funding_available": true,
+    "accreditation":"The Accounting and Finance Division has accreditations from ACCA (Association of Chartered Certified Accountants), CIMA (Chartered Institute of Management Accountants), ICAEW (Institute of Chartered Accountants in England and Wales) and AIA (Association of International Accountants).",    
+    "student_perks":"At the University of Northampton, everything we do, from funded trips to paid internships, is to give you everything you need to make a difference when you leave.",
+    "faqs": ["Why study BSc Accounting and Finance? - There are many benefits of studying for an Accounting and Finance degree, including a wide scope of options to work across multiple sectors, from economics to business law and management."],
+    "image_url":"https://www.northampton.ac.uk/wp-content/uploads/2023/04/three-students-end-of-book-shelf-768x512.jpg"
+    },
+    {
+    "id":2,
+    "course_name":"Acting BA (Hons)",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "overview":"Entering the Acting profession as a working stage and screen actor requires high-level skills and knowledge, which the Acting BA (Hons) degree at the University of Northampton is designed to help you develop.",
+    "highlights":"Conservatoire-style teaching in dedicated specialist studios – view our Innovation Centre Studio Tour. High profile guests delivering world-class acting workshops throughout the year. One of 9 institutions in the world to have Estill Voice International Education Affiliation status. Links to prestigious Royal and Derngate theatre.",
+    "course_details":"This Acting course has been designed to contribute towards achieving the following United Nations Sustainable Development Goals: SDG11: Sustainable Cities and Communities. All three years on Acting BA (Hons) degree have the core acting, vocal and movement pathways central to them.", 
+    "entry_requirements":"A typical offer for BA Acting is: BBC at A-Level or, DDM at BTEC/Cambridge Technical or M at T Level in conjunction with an extensive audition. We welcome applications from a range of non-traditional education or professional qualifications, and from students with a mix of A levels and BTEC/Cambridge Technical qualifications.",       
+    "fees_and_funding": {
+        "GBP": 9250,
+        "EUR": 10500,
+        "USD": 12000
+      },
+    "funding_available": true,
+    "accreditation":"The Acting Division has accreditations from different Associations in England and Wales.",    
+    "student_perks":"At the University of Northampton, everything we do, from funded trips to paid internships, is to give you everything you need to make a difference when you leave. If you join this full time Acting degree at Northampton, you will receive a laptop when your course begins",
+    "faqs": ["How will I be taught on Acting BA (Hons)? - Classes are largely studio-based and practical in nature stretching you physically and personally whilst preparing you professionally. You will have over 30 hours of practical sessions per week. The acting industry is competitive and we aim to equip you for it by teaching you a wide range of skills. You will also work with inspiring and creative professional directors who are active in the industry."],
+    "image_url":"https://www.northampton.ac.uk/wp-content/uploads/2022/08/student-drawing-artwork-768x512.jpg"
+    },
+    {
+    "id":3,
+    "course_name":"Fashion Marketing & Promotion BA (Hons)",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "overview":"If you are passionate about fashion and ambitious to work in one of the many areas of the industry which encompasses branding, marketing, merchandising, buying, styling, PR, live events, promotion or digital communications, then this fashion marketing course provides a fantastic platform from which to launch your career.",
+    "highlights":"International study tours in first and second year are covered in your tuition fees. Specialise in either Fashion Marketing or Fashion Promotion. Numerous opportunities for work experience. Optional Placement Year. This course is a joint delivery between the Faculty of Business and Law and the Faculty of Arts, Science and Technology.",
+    "course_details":"This fashion marketing degree is jointly delivered by experts in fashion, marketing, photography, digital communications and specialist software. Academics are from both the Faculty of Business and Law and the Faculty of Arts, Science and Technology dependent on the specifics of the module being taught.", 
+    "entry_requirements":"A typical offer for BA Acting is: BBC at A-Level or, DDM at BTEC/Cambridge Technical or M at T Level in conjunction with an extensive audition. We welcome applications from a range of non-traditional education or professional qualifications, and from students with a mix of A levels and BTEC/Cambridge Technical qualifications.",       
+    "fees_and_funding": {
+        "GBP": 9250,
+        "EUR": 10500,
+        "USD": 12000
+      },
+    "funding_available": true,
+    "accreditation":"CIM Employability Programme Award. We are partnered with The Chartered Institute of Marketing (CIM) to map the content of our BA Fashion Marketing & Promotion programme against their unique Professional Employability Criteria – a framework of knowledge, behaviours, and skills required of today’s graduates.",    
+    "student_perks":"At the University of Northampton, everything we do, from funded trips to paid internships, is to give you everything you need to make a difference when you leave. If you join this full time Acting degree at Northampton, you will receive a laptop when your course begins",
+    "faqs": [
+        "How will I learn? - On our Fashion Marketing and Promotion degree, modules are taught using our innovative ‘Active Blended Learning’. This approach is student centred with an emphasis on problem-based learning and enquiry. Varied activities within the programme include conducting primary research, study trips in the UK and abroad, industry guest speakers, live client projects, working in teams, adobe creative suite training, technical training on specialist equipment, Cad software training and staging live events."],
+    "image_url":"https://www.northampton.ac.uk/wp-content/uploads/2023/05/two-students-one-in-booth-768x512.jpg"       
+    },
+    {
+    "id":4,
+    "course_name":"Biochemistry BSc (Hons)",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "overview":"Biochemistry underpins the very nature of our existence and acquiring skills and knowledge of this subject will help you solve key biological problems. Our Biochemistry degree is aimed at helping you understand the interconnectedness of chemistry, physics and biology by exploring a range of different topics.",
+    "highlights":"Modules in emerging subjects such as bioinformatics. Collaborate with international scientists from both academic and industrial backgrounds. Modules with a large number of practical’s to aid your learning and experience. HP laptop and software included with this course for eligible students (see Eligibility criteria and terms and conditions).",
+    "course_details":"This degree in Biochemistry gives you a firm understanding of the underlying principles for biochemicals reactions that occur within living organisms. There are key biological themes that create the core of this degree that includes, biochemistry, genetics and microbiology.", 
+    "entry_requirements":"A typical offer for BA Acting is: BBC at A-Level or, DDM at BTEC/Cambridge Technical or M at T Level in conjunction with an extensive audition. We welcome applications from a range of non-traditional education or professional qualifications, and from students with a mix of A levels and BTEC/Cambridge Technical qualifications.",       
+    "fees_and_funding": {
+        "GBP": 9250,
+        "EUR": 10500,
+        "USD": 12000
+      },
+    "funding_available": true,
+    "accreditation":"Application for accreditation to the Royal Society of Biology is in process.",    
+    "student_perks":"At the University of Northampton, everything we do, from funded trips to paid internships, is to give you everything you need to make a difference when you leave. If you join this full time Acting degree at Northampton, you will receive a laptop when your course begins",
+    "faqs": ["How will I be taught? You will be taught in a variety of ways on this biochemistry degree; traditional face to face small seminars, online sessions through our virtual classroom, asynchronously and through additional support sessions.",
+             "How many hours per week of teaching/ personal tutoring? You will typically have between 12-14 hours of taught content and an additional hour available with your designated tutor."],
+    "image_url":"https://www.northampton.ac.uk/wp-content/uploads/2020/09/research-centres-768x512.jpg"    
+    },
+    {
+    "id":5,
+    "course_name":"MSc Environmental Management",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "overview":"Learn about environmental impact assessment, resource management, and sustainability practices.",
+    "highlights":"Field trips, industry projects, research opportunities.",
+    "course_details":"Modules include Environmental Impact Assessment, Resource Management, Sustainability Practices, Environmental Law, Climate Adaptation, and more.", 
+    "entry_requirements":"A bachelor's degree in a relevant field. English Language Requirements: All International and EU students applying for a course with the University of Northampton must meet the following minimum English language requirements: IELTS 6.0 (or equivalent) with a minimum of 5.5 in all bands for study at undergraduate level. For information regarding English language requirements at the University, please see our IELTS page.",       
+    "fees_and_funding": {
+        "GBP": 10500,
+        "EUR": 12395,
+        "USD": 13266
+      },
+    "funding_available": true,
+    "accreditation":"Accredited by the Institute of Environmental Management and Assessment (IEMA).",    
+    "student_perks":"Field trips, internships, access to research facilities, student societies.",
+    "faqs": [
+        "Are there fieldwork opportunities? - Yes, there are multiple field trips and industry projects.",
+        "What careers can I pursue with this degree? - Careers in environmental consulting, sustainability management, policy-making, and more."
+      ],
+    "image_url":"https://www.northampton.ac.uk/wp-content/uploads/2023/04/uon-waterside-sign-creative-hub-768x512.jpg"  
+    },
+    {
+    "id":6,
+    "course_name":"Computing (Internet Technology and Security) MSc",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "overview":"The University of Northampton’s Computing (Internet Technology and Security) MSc course allows you to study cyber security and cryptography. You will have the opportunity to develop your research and analytical skills.",
+    "highlights":"Access to PC and Linux workstation computers on the MSc Computing (Internet Technology and Security) course",
+    "course_details":"Today’s society relies on computing and Internet technology. This creates a high demand for internet security products and services as well as people with the knowledge and expertise to design, implement and manage secure internet applications. While the University of Northampton’s Computing (Internet Technology and Security) MSc pathway is mostly technical in focus, you will also learn about the business context and develop interpersonal skills that are vital to problem solving in business.", 
+    "entry_requirements":"Applicants for the master’s in Computing (Internet Technology Security) will normally hold a recognised first or second class honours degree from a UK university or international equivalent in a relevant subject.",       
+    "fees_and_funding": {
+        "GBP": 16695,
+        "EUR": 19738,
+        "USD": 21093
+      },
+    "funding_available": true,
+    "accreditation":"When you graduate from the master’s in Computing (Internet Technology and Security) course you will be able to embark upon a range of careers in the broad IT and computing industry. There is a continuing demand for well-trained staff in this industry.",    
+    "student_perks":"MSc Computing (Internet Technology and Security) students will have access to approximately 150 PC and Linux workstation computers housed in six bespoke computer laboratories, all with digital projection facilities, and maintained by two technicians. We enrol small cohorts of students to ensure that you receive personalised care that will enable you to develop your skills and enhance your knowledge.",
+    "faqs": [
+        "How will I be taught on Computing (Internet Technology and Security) MSc? - Theoretical lectures and seminars are reinforced by practical examples and case studies, using computer simulation tools and laboratory facilities.",
+        "How will I be assessed on this MSc Computing (Internet Technology and Security) course? - Assessment is by coursework, oral presentations, group work, practical reports, critical reviews and a substantial independent research dissertation."
+      ],
+    "image_url":"https://www.northampton.ac.uk/wp-content/uploads/2022/06/tutorial-group-games-design-header-768x512.jpg"   
+    },
+    {
+    "id":7,
+    "course_name":"Strength and Conditioning MSc",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "overview":"The University of Northampton’s Strength and Conditioning MSc course is designed to help you in your development to becoming an effective strength and conditioning coach. Based in Northampton, we have three professional sports clubs in the town and the University is surrounded by Olympic and Paralympic feeder clubs enabling you to develop skills and experience as an applied practitioner.",
+    "highlights":"Benefit from purpose-built strength and conditioning studio and dedicated laboratories. Take your strength and conditioning career further with our UKSCA designed course content.Strong industry links with Northampton’s professional sports teams",
+    "course_details":"The Strength and Conditioning MSc course will examine advanced and current aspects of strength and conditioning – exploring the science behind S&C – such as the development of strength, speed and power.", 
+    "entry_requirements":"To apply for MSc Strength and Conditioning at the University of Northampton, you will need a minimum of a 2:2 honours degree in a relevant subject area. Related subjects include: sports science, sports performance and coaching, physical education, physiotherapy, or an honours degree in another discipline which includes anatomy and physiology.",       
+    "fees_and_funding": {
+        "GBP": 16695,
+        "EUR": 19738,
+        "USD": 21093
+      },
+    "funding_available": true,
+    "accreditation":"MSc Strength and Conditioning course is aligned to the guidelines set out by the United Kingdom Strength and Conditioning Association (UKSCA).  The module content and a number of assessments have been designed to align with the content and assessments associated with UKSCA accreditation.",    
+    "student_perks":"Successful candidates that secure work placements at Northamptonshire County Cricket Club (NCCC), will be under the supervision of S&C coaches and medical staff. ",
+    "faqs": [
+        "How will I be taught on Strength and Conditioning MSc? - Classes are delivered in a variety of means – lectures, seminars and practical – our aim is to provide opportunities for you to become actively involved in your learning. All sessions are supported by our online learning environment, NILE. You can expect three hours of contact time each week for each module. There are no additional costs for strength and conditioning courses however, you will need sports clothes (trainers, shorts, tops) when participating in the practical sessions"
+      ],
+    "image_url":"https://www.northampton.ac.uk/wp-content/uploads/2023/04/crouching-student-sport-pavilion-768x512.jpg"
+    },
+    {
+    "id":8,
+    "course_name":"Counselling MSc",
+    "level": "Postgraduate",
+    "duration": "2 years part time",
+    "overview":"The Masters degree in Counselling at the University of Northampton is an opportunity to gain a greater understanding of human thinking, reasoning and their actions and offers the chance to take the first steps into a career in counselling. Our MSc in Counselling course provides you with a level of knowledge and skills that will allow you to develop as counsellors, and once you have gained further experience and client hours you will be able to pursue a range of professional opportunities.",
+    "highlights":"Face-to-face client placement on the counselling masters.",
+    "course_details":"This Master’s counselling course can count towards a professional body accreditation with BACP. This Masters in Counselling course will help you to achieve sufficient communication skills as well as personal development skills which are useful and applicable to a number of organisations and situations. Students will be integrated into the learning process partnered with a supportive and motivational environment.", 
+    "entry_requirements":"In order to apply for this Master’s Counselling MSc degree, applicants will need either a first or second class bachelors’ degree. Additionally, applicants will be carrying out placements whilst working with clients. Having a critical self-awareness and a willingness to reflect on your own process throughout this course is therefore required. Voluntary or professional experience of support work with adults is desirable, but not essential.",       
+    "fees_and_funding": {
+        "GBP": 16695,
+        "EUR": 19738,
+        "USD": 21093
+      },
+    "funding_available": true,
+    "accreditation":"This Master’s counselling course can count towards a professional body accreditation with BACP.",    
+    "student_perks":"Upon completion of your master’s in counselling, you may find employment opportunities within NHS settings or schools, as well as further or higher educational counselling settings. Various opportunities are available within organisational settings and police settings, as well as in continuing professional development (CPD) work. ",
+    "faqs": [
+        "How do I become a counsellor? - If you wish to pursue a counselling career or a related profession, such as a psychotherapist, you will need to complete core practitioner training that is at a minimum level of psychotherapy or counselling diploma. However, completing a Masters in Counselling will best equip you with the necessary practical skills and training, especially courses that include supervised placements."
+      ],
+    "image_url":"https://www.northampton.ac.uk/wp-content/uploads/2022/08/psychology-header-electroencephalogram-768x512.jpg"   
+    },
+    {
+    "id":9,
+    "course_name":"Master of Business Administration MBA",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "overview":"The Master of Business Administration (MBA) is a globally recognised postgraduate qualification for ambitious, motivated graduates. If you aspire to be a business professional and do not have any previous business or management experience, studying for a master of business administration degree will allow you to achieve this. Meanwhile, Executive MBAs are best suited to experienced candidates seeking to progress their career further.",
+    "highlights":"Interactive learning activities in small groups; no lengthy lectures in big theaters. A special focus on the contemporary and practical knowledge and skills relevant to the markets’ needs.A dedicated module designed to prepare international students to the UK Education System, and to help them develop transformable digital and non-digital skills that are essential to today’s business environments.",
+    "course_details":"It’s important to do your research when choosing which MBA degree to study. The right course for you will depend on your personal interests, experience and ambitions. Your options include General MBA courses, which teach a broad range of business skills and are ideal for those with less managerial experience. Alternatively, if you are progressing to finance-related positions at management and board level, MBA Finance could be a more suitable option for you.", 
+    "entry_requirements":"If you hold a first or second class honours degree from a British university or equivalent, you will be eligible to apply for this MBA business management course. Work experience is useful but is not an essential MBA business entry requirement, so long as you can demonstrate a clear passion and interest in business and/or enterprise.",       
+    "fees_and_funding": {
+        "GBP": 11800,
+        "EUR": 13950,
+        "USD": 14908
+      },
+    "funding_available": true,
+    "accreditation":"Unlike other postgraduate programmes which provide in depth specialisation in a specific field, an MBA is interdisciplinary. An MBA business management course exposes you to all areas of business including accounting, finance, marketing, and human resources.",    
+    "student_perks":"A condensed teaching schedule that allows students to have more time to be utilised for their self-guided studies and other self-development activities. ",
+    "faqs": [
+        "What does an MBA get you? - If you choose to pursue MBA study with a university, you can benefit in a number of different ways. The experience and knowledge gained on MBA courses can lead to more career options being available to you, promotion from your current position and an increased salary. They also come with the advantage of global recognition, making them valuable to individuals working abroad."
+      ],
+    "image_url":"https://www.northampton.ac.uk/wp-content/uploads/2016/01/studying-students-course-feature-768x274.jpg"   
+    },
+    {
+    "id":10,
+    "course_name":"International Marketing Strategy MSc",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "overview":"The University of Northampton’s MSc International Marketing Strategy degree is specifically designed to provide you with a strong foundation for a successful career in the exciting and fast-paced world of international marketing. The international marketing strategy course also enhances your ability to think strategically about marketing management in an international context.",
+    "highlights":"This international marketing management course has a 12-month Industry Placement Option.",
+    "course_details":"Marketing is no longer just a business function, it is a way of doing business that places the consumer at the centre of organisational activity. Marketing is an essential component of organisational success not only in businesses, but also in the public sector and not-for-profit organisations.", 
+    "entry_requirements":"You will need to hold a First or Second class honours degree (or equivalent) in order to be eligible for the master’s in international marketing strategy. No work experience is required for admission onto this course.",       
+    "fees_and_funding": {
+        "GBP": 16695,
+        "EUR": 19738,
+        "USD": 21093
+      },
+    "funding_available": true,
+    "accreditation":"The industry placement on this marketing strategy course enables you to develop your skills and knowledge in a real-world work environment, whilst completing an applied research project.",    
+    "student_perks":"Your placement will need to be appropriate to your level of study and you should also be paid for this work. On the MSc in strategic international marketing, we will support you in finding and securing a suitable placement opportunity, however it must be noted that placements are highly competitive and there is no guarantee of a placement offer being made by an employer. ",
+    "faqs": [
+        "What are the assessments for International Marketing Strategy MSc? - An innovative range of individual and group-based assessments are used involving the preparation of essays, marketing plans, case study analyses, portfolios and presentations as well as the dissertation."
+      ],
+    "image_url":"https://www.northampton.ac.uk/wp-content/uploads/2023/05/two-students-one-in-booth-768x512.jpg"    
+    }
+  ]
+}
