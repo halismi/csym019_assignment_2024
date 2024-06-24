@@ -1,0 +1,87 @@
+{
+	"$schema": "https://json-schema.org/draft/2019-09/schema",
+      "title":"course_schema_validate",
+      "type":"object",
+	  "properties": {
+		"courses": {
+		"type": "array",
+      "items": {
+		  "type": "object",
+        "properties": {
+		"id": {
+          "type": "integer",
+          "description": "Id tou mathimatos",
+		  "minimum":1,
+		  "maximum":100
+        },
+		"course_name": {
+          "type": "string",
+		  "description": "Onoma tou mathimatos",
+        },
+        "level": {
+          "type": "string",
+          "enum": ["Undergraduate", "Postgraduate"],
+		  "description": "undergraduate or postgraduate",
+        },
+        
+        "duration": {
+          "type": "string",
+		  "description": "Diarkeia tou mathimatos",
+		  
+        },
+        "overview": {
+          "type": "string",
+		  "description": "Overview tou mathimatos",
+		  
+        },
+        "highlights": {
+          "type": "string",
+		  "description": "highlights tou mathimatos",
+        },
+        "course_details": {
+          "type": "string",
+		  "description": "Details tou mathimatos",
+		  
+        },
+        "entry_requirements": {
+          "type": "string",
+		  "description": "entry_requirements tou mathimatos",
+		  
+        },
+        "fees_and_funding": {
+          "type": "object",
+          "properties": {
+              "GBP": {"type": "number"},
+              "EUR": {"type": "number"},
+              "USD": {"type": "number"}
+            },
+            "required": ["GBP", "EUR", "USD"]
+        },
+		"funding_available": {
+			"type": "boolean"
+			},
+		
+        "accreditation": {
+          "type": "string"
+        },
+        "student_perks": {
+          "type": "string",
+		  "description": "student_perks tou mathimatos",
+        },
+        "faqs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "image_url": {
+          "type": "string",
+          "format": "uri"
+      },
+
+      
+    }
+  }
+        }
+}
+}
