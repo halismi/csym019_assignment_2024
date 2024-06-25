@@ -1,13 +1,17 @@
+//add an event listener for page load
+//loadCourses  is the function name that will execute on page load
 document.addEventListener("DOMContentLoaded", function() {
     loadCourses();
 
     // Function to load courses from server using XMLHttpRequest
     function loadCourses() {
-        var xhr = new XMLHttpRequest();
-        xhr.open('GET', 'course.json', true);
-        xhr.onreadystatechange = function() {
-            if (xhr.readyState === 4 && xhr.status === 200) {
-                var data = JSON.parse(xhr.responseText);
+        var req = new XMLHttpRequest();
+        // Open a GET request to fetch course.json
+        req.open('GET', 'course.json', true);
+        req.onreadystatechange = function() {
+            if (req.readyState === 4 && req.status === 200) {
+                //Parse the JSON response
+                var data = JSON.parse(req.responseText);
                 var courses = data.courses;
                 var tableBody = document.getElementById('course-table-body');
                 
@@ -39,11 +43,11 @@ document.addEventListener("DOMContentLoaded", function() {
                     tableBody.appendChild(row);
                 });
 
-                // Set timeout to reload the courses after 24 hours
-                setTimeout(loadCourses, 24 * 60 * 60 * 1000);
+// Set timeout to reload the courses after 5 minutes
+        setTimeout(loadCourses, 5 * 60 * 1000); // Reload the courses after 5 minutes
             }
         };
-        xhr.send();
+        req.send();
     }
 
     // Initial load

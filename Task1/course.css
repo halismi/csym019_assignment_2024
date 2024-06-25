@@ -1,43 +1,72 @@
+/*General Body Styling: Applies a global font and background color */
 body {
-    font-family: Arial, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #e1f2f3;
 }
-
+/*Styles the header with a background color, text color, and padding */
 header {
     background-color: #666;
     color: #fff;
     text-align: center;
     padding: 1em 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
+/*Container: Centers the container, adds padding, background color, and a shadow effect.*/
 .container {
     width: 90%;
     margin: 2em auto;
     background-color: #fff;
     padding: 1em;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
-
+/* Table and Rows: Styles for the table and its rows, including hover effects and image adjustments.*/
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 1em;
+    margin-top: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 th, td {
-    border: 1px solid #ccc;
-    padding: 0.5em;
+    border: 1px solid #ddd;
+    padding: 0.75em;
     text-align: left;
 }
 
 th {
-    background-color: #fff;
+    background-color: #007bff;
+    color: white;
 }
 
-.course-image {
-    max-width: 250px;
-    max-height: 250px;
-    object-fit: cover;
+td img {
+    width: 1000px;
+    height: auto;
+    border-radius: 12px;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+/* Media Queries: Ensures the table looks good on smaller screens.*/
+
+@media (max-width: 9999px) {
+    .container {
+        padding: 1em;
+    }
+
+    th, td {
+        font-size: 0.9em;
+        padding: 0.5em;
+    }
+
+    td img {
+        width: 200px;
+    }
 }
