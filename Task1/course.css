@@ -1,11 +1,11 @@
-/*General Body Styling: Applies a global font and background color */
+/*Ορίζουμε το γενικό στυλ του σώματος της ιστοσελίδας καθορίζοντας την γραμματοσειρά το margin το padding καθώς και το χρώμα του background  */
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #e1f2f3;
 }
-/*Styles the header with a background color, text color, and padding */
+/*Καθορίζουμε την θέση και το χρώμα της επικεφαλίδας. */
 header {
     background-color: #666;
     color: #fff;
@@ -13,7 +13,7 @@ header {
     padding: 1em 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-/*Container: Centers the container, adds padding, background color, and a shadow effect.*/
+/*Καθορίζουμε το στυλ και την θέση του container*/
 .container {
     width: 90%;
     margin: 2em auto;
@@ -22,41 +22,33 @@ header {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
-/* Table and Rows: Styles for the table and its rows, including hover effects and image adjustments.*/
+/*Καθορίζουμε το στυλ του πίνακα το width τα boarders του και ένα shadow εφέ */
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 1em;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
+/*Καθορίζουμε το στυλ των headers και των κελιών του με διάφορα χρώματα borders και padding */
 th, td {
     border: 1px solid #ddd;
     padding: 0.75em;
     text-align: left;
 }
 
+
 th {
     background-color: #007bff;
     color: white;
 }
-
+/*Καθορίζουμε το μέγεθος και το στυλ των εικόνων που θα εμπεριέχονται μέσα στα κελιά του πίνακα */
 td img {
-    width: 1000px;
+    width: 100px;
     height: auto;
     border-radius: 12px;
 }
-
-td {
-    background-color: #f9f9f9;
-}
-
-table tbody tr:hover {
-    background-color: #f1f1f1;
-}
-/* Media Queries: Ensures the table looks good on smaller screens.*/
-
-@media (max-width: 9999px) {
+/* Χρησιμοποιούμε Media Queries  (W3Schools, 2024) για να βεβαιωθούμε ότι ο πίνακας μας θα εμφανίζεται σωστά σε οθόνες μικρότερες από 768px.*/
+@media (max-width: 768px) {
     .container {
         padding: 1em;
     }
@@ -67,6 +59,6 @@ table tbody tr:hover {
     }
 
     td img {
-        width: 200px;
+        width: 80px;
     }
 }

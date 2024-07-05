@@ -1,9 +1,4 @@
-//add an event listener for page load
-//loadCourses  is the function name that will execute on page load
-document.addEventListener("DOMContentLoaded", function() {
-    loadCourses();
-
-    // Function to load courses from server using XMLHttpRequest
+// Function to load courses from server using XMLHttpRequest
     function loadCourses() {
         var req = new XMLHttpRequest();
         // Open a GET request to fetch course.json
@@ -15,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 var courses = data.courses;
                 var tableBody = document.getElementById('course-table-body');
                 
-                // Clear previous data
+                // Clear any previous data
                 tableBody.innerHTML = '';
 
                 // Populate table with course data
@@ -52,4 +47,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Initial load
     loadCourses();
-});
+
