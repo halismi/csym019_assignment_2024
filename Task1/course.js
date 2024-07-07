@@ -1,7 +1,7 @@
-// Function to load courses from server using XMLHttpRequest
+
     function loadCourses() {
         var req = new XMLHttpRequest();
-        // Open a GET request to fetch course.json
+       
         req.open('GET', 'course.json', true);
         req.onreadystatechange = function() {
             if (req.readyState === 4 && req.status === 200) {
@@ -10,10 +10,10 @@
                 var courses = data.courses;
                 var tableBody = document.getElementById('course-table-body');
                 
-                // Clear any previous data
+               
                 tableBody.innerHTML = '';
 
-                // Populate table with course data
+               
                 courses.forEach(course => {
                     var row = document.createElement('tr');
                     row.innerHTML = `
@@ -38,13 +38,13 @@
                     tableBody.appendChild(row);
                 });
 
-// Set timeout to reload the courses after 5 minutes
+
         setTimeout(loadCourses, 5 * 60 * 1000); // Reload the courses after 5 minutes
             }
         };
         req.send();
     }
 
-    // Initial load
+    
     loadCourses();
 
