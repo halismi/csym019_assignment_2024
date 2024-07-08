@@ -12,6 +12,9 @@
     </header>
 
     <div class="container">
+    <div class="link-container">
+    <a href="index.php" class="button">Back to Main Page</a>
+</div>
         <div class="table-container">
             <h2>Courses</h2>
             <table>
@@ -44,12 +47,9 @@
         </div>
                 <div class="report-container">
             <h2>Analytical Report</h2>
-            <form method="POST" action="generate_report.php"<>
+            
                 <button type="submit">Generate Report</button>
-            </form>
-            <div id="report-content">
-                <?php include 'generate_report.php'; ?>
-            </div>
+          
         </div>
     </div>
 </body>

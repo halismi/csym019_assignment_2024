@@ -9,11 +9,11 @@ if ($result->num_rows > 0) {
         echo "<tr>
             <td>
                 <form method='POST' action='delete_course.php'>
-                    <input type='hidden' name='course_id' value='{$row['id']}'>
+               <input type='hidden' name='course_id' value='{$row['id']}'>
                     <button type='submit'>Delete</button>
                 </form>
             </td>
-            <td><input type='checkbox' name='course_ids[]' value='{$row['id']}'></td>
+            <td><input type='checkbox'></td>
             <td>{$row['id']}</td>
             <td>{$row['course_name']}</td>
             <td>{$row['level']}</td>
@@ -29,11 +29,11 @@ if ($result->num_rows > 0) {
             <td>{$row['accreditation']}</td>
             <td>{$row['student_perks']}</td>
             <td>{$row['faqs']}</td>
-            <td><img src='{$row['image_url']}' alt='{$row['course_name']}' width='100'></td>
+            <td><img src='{$row['image_url']}' alt='{$row['course_name']}' width='150'></td>
         </tr>";
     }
 } else {
-    echo "<tr><td colspan='18'>No courses found</td></tr>";
+    echo "<tr>No courses found</td></tr>";
 }
 
 $conn->close();

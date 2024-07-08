@@ -40,7 +40,7 @@
 
         <div class="link-container">
             <h2>Manage Courses</h2>
-            <a href="courses.php" target="_blank" class="button">View and Manage Courses</a>
+            <a href="courses.php" class="button">View and Manage Courses</a>
         </div>
 
     </div>

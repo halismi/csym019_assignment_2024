@@ -1,6 +1,6 @@
 <?php
 include 'db.php';
-
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $course_name = $_POST['course_name'];
     $level = $_POST['level'];
     $duration = $_POST['duration'];
@@ -22,9 +22,10 @@ include 'db.php';
 
     if ($conn->query($sql) === TRUE) {
         echo "Course added succesfully!";
-        exit();
+        echo "<a href='index.php' class='button'>Back to Main Page</a>";
     } else {
-        echo "Error deleting course: " . $conn->error; }
-    
+        echo "Error adding course: " . $conn->error; }
+        echo "<a href='index.php' class='button'>Back to Main Page</a>";
+}
 $conn->close();
 ?>
