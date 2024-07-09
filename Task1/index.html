@@ -1,20 +1,20 @@
 <!DOCTYPE html> <!-- H έκδοση της HTML που χρησιμοποιείται, η οποία στην προκειμένη περίπτωση είναι η HTML5 -->
-<html lang="en">
+<html lang="en"> <!-- Ξεκινάει το HTML document και καθορίζει την γλώσσα --> 
     <head>
-        <meta charset="UTF-8"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>University of Northampton Courses</title>
-    <link rel="stylesheet" href="course.css"> 
+        <meta charset="UTF-8">  <!-- Θέτει το character encoding για το document σε UTF8-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Θέτουμε το viewport width και το width της συσκευής -οι ρυθμίσεις αυτές συνήθως ορίζουν μεταξύ άλλων και κατά πόσο η σελίδα μας θα είναι “responsive.” -->
+    <title>University of Northampton Courses</title> <!-- Τίτλος σελίδας-->
+    <link rel="stylesheet" href="course.css"> <!--  Ορίζουμε εξωτερικό αρχείο CSS για το styling της σελίδας μας. -->
     </head>
     <body>
     <header>
-    <h1>University of Northampton Courses</h1> 
+    <h1>University of Northampton Courses</h1> <!-- Επικεφαλίδα της σελίδας. -->
     </header>
-       <div class="container"> 
-    <table> 
-      <thead> 
-        <tr> 
-          <th>id</th> 
+       <div class="container"> <!-- Για την δομή του πίνακα θα θέσουμε ένα div class τύπου container. -->
+    <table> <!-- Δημιουργία πίνακα HTML-->
+      <thead> <!-- Καθορίζει την επικεφαλίδα του πίνακα-->
+        <tr> <!-- Γραμμή πίνακα-->
+          <th>id</th> <!-- Τα κελιά του πίνακα καθένα από τα οποία αντιπροσωπεύει μια στήλη-->
           <th>Course_Name</th>
           <th>Level</th>
           <th>Duration</th>
@@ -32,10 +32,10 @@
           <th>Image</th>
         </tr>
       </thead> 
-      <tbody id="course-table-body"> 
+      <tbody id="course-table-body"> <!-- Το σώμα του πίνακα όπου θα εισαχθούν δυναμικά τα δεδομένα του εκάστοτε μαθήματος. Το id θα το χρησιμοποιήσουμε στην JS για καλύτερο χειρισμό του DOM. (W3Schools, 2024)-->
       </tbody>
     </table>
   </div>      
-  <script src="course.js"></script> 
+  <script src="course.js"></script> <!--Χρησιμοποιούμε εξωτερικό αρχείο Javascript. -->
     </body>
 </html>

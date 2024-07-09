@@ -1,21 +1,21 @@
 
-    function loadCourses() {
-        var req = new XMLHttpRequest();
+    function loadCourses() {// Καθορίζουμε την function loadCourses η οποία αντλεί τα δεδομένα των courses από τον server
+        var req = new XMLHttpRequest();//Δημιουργούμε ένα  XMLHttpRequest, το οποίο θα χρειαστεί για να ανταλλάξουμε data με τον server.
        
-        req.open('GET', 'course.json', true);
-        req.onreadystatechange = function() {
-            if (req.readyState === 4 && req.status === 200) {
-                //Parse the JSON response
-                var data = JSON.parse(req.responseText);
-                var courses = data.courses;
-                var tableBody = document.getElementById('course-table-body');
+        req.open('GET', 'course.json', true);// Ξεκινάμε το GET request για να αντλήσουμε τα data από το course.json αρχείο. Η παράμετρος true υποδηλώνει ότι το request είναι ασύγχρονο
+        req.onreadystatechange = function() {//Δημιουργία function για την διαχείριση του state του request 
+            if (req.readyState === 4 && req.status === 200) {//Έλεγχος εάν το request ολοκληρώθηκε επιτυχώς και υπάρχει έτοιμη απάντηση 
+                
+                var data = JSON.parse(req.responseText);//Γίνεται parse η απάντηση του JSON σε ένα JavaScript Object 
+                var courses = data.courses;//Εξάγουμε τον πίνακα courses από τα parsed data και τον χρησιμοποιούμε σε μια ομώνυμη μεταβλητή
+                var tableBody = document.getElementById('course-table-body');//Λαμβάνουμε το table-body στοιχείο στο οποίο θα τοποθετήσουμε όλες τις γραμμές των courses και τον χρησιμοποιούμε σε μια μεταβλητή tableBody
                 
                
-                tableBody.innerHTML = '';
+                tableBody.innerHTML = '';// Όλο το innerHTML του tableBody γίνεται clear πριν γραφτούν οποιαδήποτε άλλα δεδομένα 
 
-               
-                courses.forEach(course => {
-                    var row = document.createElement('tr');
+                               // Προσθέτουμε στον πίνακα τα data των courses
+                courses.forEach(course => { //Για κάθε μάθημα του πίνακα courses δημιουργούμε μια γραμμή 
+                    var row = document.createElement('tr');//Δημιουργία tr element χρησιμοποιώντας την document.createElement() μέθοδο 
                     row.innerHTML = `
                         <td>${course.id}</td>
                         <td>${course.course_name}</td>
@@ -35,16 +35,16 @@
                         <td><img src="${course.image_url}" class="course-image"></td>
                         
                      `;
-                    tableBody.appendChild(row);
+                    tableBody.appendChild(row);//Προσθέτουμε τη νέα γραμμή που δημιουργήθηκε στον πίνακα
                 });
 
 
-        setTimeout(loadCourses, 5 * 60 * 1000); // Reload the courses after 5 minutes
+        setTimeout(loadCourses, 5 * 60 * 1000); // Θέτουμε ένα timeout για να φορτωθεί εκ νέου η loadCourses κάθε 300,000 milliseconds (5 λεπτά
             }
         };
         req.send();
     }
 
     
-    loadCourses();
+    loadCourses();//Καλούμε την loadCourses για να αντληθούν/εμφανιστούν τα αρχικά δεδομένα του courses.
 

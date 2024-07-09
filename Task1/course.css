@@ -35,17 +35,15 @@ th, td {
     padding: 0.75em;
     text-align: left;
 }
-
-
 th {
     background-color: #007bff;
     color: white;
 }
 /*Καθορίζουμε το μέγεθος και το στυλ των εικόνων που θα εμπεριέχονται μέσα στα κελιά του πίνακα */
 td img {
-    width: 200px;
+    width: 100px;
     height: auto;
-    border-radius: 13px;
+    border-radius: 12px;
 }
 /* Χρησιμοποιούμε Media Queries  (W3Schools, 2024) για να βεβαιωθούμε ότι ο πίνακας μας θα εμφανίζεται σωστά σε οθόνες μικρότερες από 768px.*/
 @media (max-width: 768px) {
@@ -62,3 +60,4 @@ td img {
         width: 80px;
     }
 }
+
