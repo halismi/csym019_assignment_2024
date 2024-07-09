@@ -1,16 +1,19 @@
 <?php
 include 'db.php';
 
-    $course_id = $_POST['course_id'];
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $course_id = intval($_POST['course_id']);
 
-    $sql = "DELETE FROM courses WHERE id='$course_id'";
+    $sql = "DELETE FROM courses WHERE id = $course_id";
 
     if ($conn->query($sql) === TRUE) {
-        echo "Course deleted succesfully!";
-        echo "<a href='index.php' class='button'>Back to Main Page</a>";
-      
+        echo "<p>Course deleted successfully.</p>";
+        echo "<a href='courses.php' class='button'>Back to Courses</a>";
     } else {
-        echo "Error deleting course: " . $conn->error; }
-        echo "<a href='index.php' class='button'>Back to Main Page</a>";
+        echo "Error deleting record: " . $conn->error;
+        echo "<a href='courses.php' class='button'>Back to Courses</a>";
+    }
+}
+
 $conn->close();
 ?>
