@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (!isset($_SESSION['username'])) {
+    header("Location: login.php");
+    exit();
+}
+?>
 <!DOCTYPE html> <!-- H έκδοση της HTML που χρησιμοποιείται, η οποία στην προκειμένη περίπτωση είναι η HTML5 (W3Schools, 2024)--> 
 <html lang="en"> <!-- Ξεκινάει το HTML document και καθορίζει την γλώσσα -->
 <head>
@@ -59,7 +66,7 @@
 
         <div class="link-container"> <!--Container div για το link των courses-->
             <h2>Manage Courses</h2>
-            <a href="courses.php" target="_blank" class="button">View and Manage Courses</a> <!--Σύνδεσμος για το courses.php το οποίο θα ανοίξει σε νέο παράθυρο/tab (Docs, 2024)-->
+            <a href="courses.php" target="_blank" class="button">View and Manage Courses</a> <!--Σύνδεσμος μέσω button για το courses.php το οποίο θα ανοίξει σε νέο παράθυρο/tab (Docs, 2024)-->
         </div>
     </div>
 </body>

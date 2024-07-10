@@ -1,144 +1,129 @@
-/* General Styles */
+/* Θέτουμε τα default fonts/margin/padding και background color για την σελίδα (W3Schools, 2024) */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e1f2f3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-color: #e1f2f4;
 }
 
+/* Θέτουμε το στυλ της επικεφαλίδας μας με άσπρο χρώμα centered text, padding, και ένα box shadow. (W3Schools, 2024) */
 header {
     background-color: #555;
     color: white;
-    padding: 20px;
     text-align: center;
-    width: 100%;
+    padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Θέτουμε το container μας στο κέντρο βάζουμε padding, άσπρο background, rounded corners και σκίαση (W3Schools, 2024)*/
 .container {
-    width: 98%;
-    margin: 20px auto;
+    width: 90%;
+    margin: 2em auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.link-container, .form-container, .table-container, .report-container {
-    margin-bottom: 20px;
+/* ξεχωρίζουμε τον form container από τα υπόλοιπα elements της σελίδας (W3Schools, 2024) */
+.form-container {
+    margin-bottom: 2em;
 }
 
-h2 {
-    margin-top: 0;
-}
-
-/* Form Styles */
-.form-container form {
-    display: flex;
-    flex-direction: column;
-}
-
-.form-container input[type="text"],
-.form-container input[type="number"],
-.form-container textarea,
-.form-container select {
-    margin-bottom: 10px;
+/* Διαμόρφωση των inputs, textareas, select και buttons με συγκεκριμένο padding, και περιθώρια (W3Schools, 2024) */
+input[type="text"],
+input[type="number"],
+textarea,
+select,
+button {
+    width: 100%;
     padding: 10px;
+    margin: 10px 0;
     border: 1px solid #ddd;
     border-radius: 4px;
-    width: 100%;
-    font-size: 16px;
+    box-sizing: border-box;
 }
 
-.form-container button {
-    padding: 15px;
-    font-size: 16px;
-    background-color: #007bff;
+/* Διαμόρφωση button με συγκεκριμένο φόντο, λευκό κείμενο, χωρίς περίγραμμα και να αλλάζει το χρώμα του φόντου κατά το mouse-over  (W3Schools, 2024)*/
+a.button {
+    background-color: #555;
     color: white;
     border: none;
-    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
     cursor: pointer;
+    border-radius: 4px;
 }
 
-.form-container button:hover {
-    background-color: #0056b3;
+a.button:hover {
+    background-color: #333;
 }
-
-/* Table Styles */
-.table-container table {
+/* Διαμόρφωση των tables σε  πλάτος 100%, collapsed περιθώρια, επισκιάσεις και διαμόρφωση των επικεφαλίδων/κελίων των πινάκων (W3Schools, 2024)*/
+table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 10px;
+    margin-top: 1em;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.table-container th,
-.table-container td {
+th, td {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: left;
-    word-wrap: break-word;
 }
 
-.table-container th {
+th {
     background-color: #007bff;
     color: white;
 }
 
-.table-container td img {
+td img {
     width: 100px;
     height: auto;
-    border-radius: 4px;
+    border-radius: 12px;
 }
 
-.table-container tbody tr:hover {
+table tbody tr:hover {
     background-color: #f1f1f1;
 }
 
-/* Button Styles */
-.button {
+/* Διαμόρφωση Checkbox και  Delete Buttons */
+td form {
     display: inline-block;
-    padding: 15px 30px;
-    font-size: 16px;
-    color: #007bff;
-    text-decoration: none;
-    border: 1px solid #007bff;
-    border-radius: 4px;
-    transition: background-color 0.3s, color 0.3s;
 }
 
-.button:hover {
-    background-color: #007bff;
-    color: white;
+input[type="checkbox"] {
+    margin-right: 10px;
 }
 
-/* Chart Styles */
-canvas {
-    margin-top: 10px;
-    max-width: 100%;
+/* Ρυθμίσεις για το report και canvas container */
+.report-container {
+    margin-top: 2em;
 }
 
-@media (max-width: 768px) {
+.canvas-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Responsive Design (W3Schools, 2024) */
+@media (max-width: 600px) {
     .container {
+        width: 100%;
         padding: 10px;
     }
 
-    .table-container th,
-    .table-container td {
+    th, td {
         font-size: 0.9em;
-        padding: 8px;
     }
 
-    .button {
-        padding: 10px 20px;
-        font-size: 14px;
+    td img {
+        width: 50px;
     }
 
-    .form-container button {
+    button {
         padding: 10px;
-        font-size: 14px;
     }
 }
