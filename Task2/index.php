@@ -48,9 +48,9 @@
                 </div>
 
                 <textarea id="entry_requirements" name="entry_requirements" placeholder="Entry Requirements" required></textarea>
-                <input type="number" step="0.01" id="fees_and_funding_GBP" name="fees_and_funding_GBP" placeholder="Fees (GBP)" required>
-                <input type="number" step="0.01" id="fees_and_funding_EUR" name="fees_and_funding_EUR" placeholder="Fees (EUR)" required>
-                <input type="number" step="0.01" id="fees_and_funding_USD" name="fees_and_funding_USD" placeholder="Fees (USD)" required>
+                <input type="number" step="1" id="fees_and_funding_GBP" name="fees_and_funding_GBP" placeholder="Fees (GBP)" required>
+                <input type="number" step="1" id="fees_and_funding_EUR" name="fees_and_funding_EUR" placeholder="Fees (EUR)" required>
+                <input type="number" step="1" id="fees_and_funding_USD" name="fees_and_funding_USD" placeholder="Fees (USD)" required>
                 <textarea id="faqs" name="faqs" placeholder="FAQs" required></textarea>
                 <input type="text" id="image_url" name="image_url" placeholder="Image URL" required>
                 <button type="submit">Add Course</button> <!--Submit της φόρμας-->
